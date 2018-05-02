@@ -9,9 +9,9 @@ import 'common/stylus/index'
 import 'babel-polyfill'
 
 // 解决div 按钮延时30毫秒问题
-import fastclick from 'fastclick'
+// import fastclick from 'fastclick'
 
-fastclick.attach(document.body)
+// fastclick.attach(document.body)
 
 Vue.config.productionTip = false
 

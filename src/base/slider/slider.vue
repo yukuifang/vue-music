@@ -41,7 +41,6 @@
         this._setSliderWidth()
         this._initDots()
         this._initSlider()
-
         if (this.autoPlay) {
           this._play()
         }
@@ -69,7 +68,6 @@
     methods: {
       _setSliderWidth(isResize) {
         this.children = this.$refs.sliderGroup.children
-
         let width = 0
         let sliderWidth = this.$refs.slider.clientWidth
         for (let i = 0; i < this.children.length; i++) {
@@ -134,6 +132,7 @@
 
   .slider
     min-height: 1px
+    position relative
     .slider-group
       position: relative
       overflow: hidden
